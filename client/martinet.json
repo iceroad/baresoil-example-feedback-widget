@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "src": "index.pug",
+      "styles": ["style.less"],
+      "scripts": ["script/app.js"],
+      "dist": "index.html"
+    }
+  ],
+  "paths": {
+    "src": "src",
+    "dist": "dist"
+  }
+}

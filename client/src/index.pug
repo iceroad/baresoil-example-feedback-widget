@@ -1,0 +1,15 @@
+doctype
+html
+  body
+    h1 Feedback
+    p.
+      Baresoil is under active development. For any questions, issues, feature requests, or general comments, please use the form below.
+
+    textarea(id='input-box')
+
+    label(for='contact-me')
+      span Enter your email address below if you would like a response #[strong (optional)]:
+      input(type='text', id='contact-me')
+
+    button(role='button', id='send-button') Send Feedback
+    div(id='sending-spinner', style='display: none') Sending feedback...
